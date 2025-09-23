@@ -1,4 +1,4 @@
-# cf_ai_squirrito
+# Squirrito 🐿️
 
 Capture the Moment, but with humour!
 
