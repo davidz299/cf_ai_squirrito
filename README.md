@@ -52,7 +52,7 @@ npx wrangler deploy
 # Deploy UI to Pages
 cd web
 npm run build
-npx wrangler pages deploy dist --project-name geocomedian
+npx wrangler pages deploy dist --project-name squirrito
 ```
 
 ---
@@ -60,13 +60,13 @@ npx wrangler pages deploy dist --project-name geocomedian
 ## Repository Layout
 
 ```
-cf_ai_geocomedian/
+cf_ai_squirrito/
 ├─ src/
 │  ├─ worker.ts              # Worker entry: routes, AI calls, DO alarms
-│  ├─ agent.ts               # GeoComedianAgent (Agents API w/ callable methods)
+│  ├─ agent.ts               # squirritoAgent (Agents API w/ callable methods)
 │  └─ types.ts               # Shared types
 ├─ workflows/
-│  └─ geocomedian.ts         # Cloudflare Workflows pipeline (generate + store)
+│  └─ squirrito.ts         # Cloudflare Workflows pipeline (generate + store)
 ├─ web/
 │  ├─ index.html             # Vite entry for Pages
 │  ├─ src/App.tsx            # Chat UI + Leaflet map
@@ -85,7 +85,7 @@ cf_ai_geocomedian/
 
 - **Location input**: Type a city/neighborhood/landmark or click the map to pin. The app will reverse-use your typed location without external geocoding for the demo. Markers represent your *memories* (stored jokes) returned from the Worker.
 - **State**: Durable Object `GeoMemoryDO` stores your memories keyed by a session id (cookie) and coarse lat/lng buckets.
-- **Workflow**: `workflows/geocomedian.ts` composes steps: validate → call LLM → persist memory → return result.
+- **Workflow**: `workflows/squirrito.ts` composes steps: validate → call LLM → persist memory → return result.
 - **Agent**: `src/agent.ts` shows how you can schedule and expose callable methods for external triggers (e.g., share daily “best local joke”).
 
 > Tip: If you prefer KV or D1, swap the DO storage parts in `GeoMemoryDO` with KV/D1 calls.
