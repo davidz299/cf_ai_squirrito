@@ -1,0 +1,20 @@
+name = "cf_ai_squirrito"
+main = "src/worker.ts"
+compatibility_date = "2024-09-10"
+
+[ai]
+binding = "AI"
+
+[durable_objects]
+bindings = [
+  { name = "GEO_MEMORIES", class_name = "GeoMemoryDO" }
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["GeoMemoryDO"]
+
+[workflows]
+bindings = [
+  { name = "squirrito_WORKFLOW", script_name = "squirrito" }
+]
