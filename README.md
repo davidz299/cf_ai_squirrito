@@ -88,20 +88,7 @@ cf_ai_squirrito/
 - **Workflow**: `workflows/squirrito.ts` composes steps: validate → call LLM → persist memory → return result.
 - **Agent**: `src/agent.ts` shows how you can schedule and expose callable methods for external triggers (e.g., share daily “best local joke”).
 
-> Tip: If you prefer KV or D1, swap the DO storage parts in `GeoMemoryDO` with KV/D1 calls.
 
----
-
-## Assignment Checklist
-
-- ✅ Repo name prefixed with `cf_ai_`
-- ✅ README with **clear run/deploy instructions**
-- ✅ LLM via **Workers AI**
-- ✅ **Workflows/Workers/Durable Objects** for coordination and state
-- ✅ **Pages** UI with chat + map
-- ✅ **PROMPTS.md** included
-
----
 
 ## License
 
