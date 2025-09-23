@@ -1,7 +1,10 @@
 # cf_ai_squirrito
 
-GeoComedian is a tiny AI-powered app on Cloudflare that turns *where you are* into a joke. 
-It also remembers jokes by location and plots them on a map you can share.
+Capture the Moment, but with humour!
+
+Meet Squirrito 🐿️, the squirrel that hoards your memories, instead of nuts.
+
+Squirrito is an AI-powered app on Cloudflare that brings humor into your life. It remembers the location of where jokes were generated and plots them on a map you can share.
 
 This repo satisfies the assignment requirements:
 
