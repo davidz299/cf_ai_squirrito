@@ -280,14 +280,14 @@ export default function App() {
       // Couldn’t get location → ask in chat (no browser prompt)
       append(
         botMsg(
-          `I couldn’t get your current location to save the joke. 🌍 Can you type where this joke happened (like "Eiffel Tower" or "Toronto, Canada")?`,
+          `I couldn’t get your current location to save the joke. Can you type where this joke happened (like "Eiffel Tower" or "Toronto, Canada")?`,
           'needLocation'
         )
       );
       setNeedLocationPending(true);
       return;
     } else {
-      append(botMsg(`No worries! I’ll keep this one in my cheek pouches only. 😇`));
+      append(botMsg(`No worries! I’ll keep this one in my cheek pouches only.`));
       append(botMsg(`Would you like another joke?`, 'again'));
     }
   }
