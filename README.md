@@ -5,6 +5,9 @@ Capture the moment, but with humour!
 Meet Squirrito 🐿️, your very human-like squirrel best-friend that makes the best jokes and hoards your memories, instead of nuts.
 
 Squirrito is an AI-powered app on Cloudflare that brings humor into your life. It remembers the location of where jokes were generated and plots them on a map you can share.
+
+Check out the live deployment at [https://cf_ai_squirrito.davidzhuang29.workers.dev/](https://cf_ai_squirrito.davidzhuang29.workers.dev/).
+
 <img width="1628" height="958" alt="Demo3" src="https://github.com/user-attachments/assets/6f5c5c32-ae0b-42c7-847b-724547c44ad5" />
 
 <img width="1611" height="963" alt="Demo1" src="https://github.com/user-attachments/assets/f144c03e-9d55-4c84-aa06-5b2517489ad9" />
@@ -17,8 +20,6 @@ This project satisfies all the assignment requirements:
 - **Workflow / coordination**: Demonstrates Cloudflare Workflows and Workers, and an Agent with callable methods.
 - **User input via chat**: Visually-appealing UI for the user to interact with Squirrito and check out the map of previous jokes and their locations.
 - **Memory or state**: Durable Objects.
-
-Check out the live deployment at [https://cf_ai_squirrito.davidzhuang29.workers.dev/](https://cf_ai_squirrito.davidzhuang29.workers.dev/).
 
 Live components can be deployed with `wrangler`. You can also run locally as well, see instructions below.
 
