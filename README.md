@@ -8,7 +8,7 @@ Squirrito is an AI-powered app on Cloudflare that brings humor into your life. I
 
 Check out the live deployment at [https://cf_ai_squirrito.davidzhuang29.workers.dev/](https://cf_ai_squirrito.davidzhuang29.workers.dev/).
 
-<img width="1608" height="961" alt="Demo5" src="https://github.com/user-attachments/assets/552ce711-f8fe-463d-95a2-f67793a7da41" />
+<img width="1631" height="964" alt="Demo5" src="https://github.com/user-attachments/assets/96caed83-c5fc-4009-b079-92b8af24262a" />
 
 <img width="1611" height="963" alt="Demo1" src="https://github.com/user-attachments/assets/f144c03e-9d55-4c84-aa06-5b2517489ad9" />
 
