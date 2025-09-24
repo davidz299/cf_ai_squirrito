@@ -1,6 +1,6 @@
 # Squirrito 🐿️
 
-Capture the Moment, but with humour!
+Capture the moment, but with humour!
 
 Meet Squirrito 🐿️, your very human-like squirrel best-friend that makes the best jokes and hoards your memories, instead of nuts.
 
