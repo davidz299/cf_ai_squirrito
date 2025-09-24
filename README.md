@@ -62,19 +62,10 @@ npx wrangler pages deploy dist --project-name squirrito
 ```
 cf_ai_squirrito/
 ├─ src/
-│  ├─ worker.ts              # Worker entry: routes, AI calls, DO alarms
-│  ├─ agent.ts               # squirritoAgent (Agents API w/ callable methods)
-│  └─ types.ts               # Shared types
-├─ workflows/
-│  └─ squirrito.ts         # Cloudflare Workflows pipeline (generate + store)
-├─ web/
-│  ├─ index.html             # Vite entry for Pages
-│  ├─ src/App.tsx            # Chat UI + Leaflet map
-│  ├─ src/main.tsx
-│  └─ package.json
-├─ PROMPTS.md                # System/user prompts used for AI calls
-├─ wrangler.toml             # Bindings for AI, DO, Workflows
-├─ package.json              # Monorepo scripts
+│  └─ index.ts                
+├─ PROMPTS.md                
+├─ wrangler.toml             
+├─ package.json              
 ├─ tsconfig.json
 └─ README.md
 ```
