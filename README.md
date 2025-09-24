@@ -4,7 +4,7 @@ Capture the moment, but with humour!
 
 Meet Squirrito 🐿️, your very human-like squirrel best-friend that makes the best jokes based on where you are and what you are doing, to brighten up your day! Squirrito hoards your memories, instead of nuts.
 
-Squirrito is an AI-powered app on Cloudflare that remembers the location of where jokes were generated and plots them on a map you can share.
+Squirrito is an AI-powered app on Cloudflare that remembers the location of where jokes were generated and plots them on a map you can share. It is always worth a while down memory lane, but instead of your camera roll, why not a map with all the places you have been and adventures you had, captured in hilarious jokes!
 
 Check out the live deployment at [https://cf_ai_squirrito.davidzhuang29.workers.dev/](https://cf_ai_squirrito.davidzhuang29.workers.dev/).
 
