@@ -2,7 +2,7 @@
 
 Capture the Moment, but with humour!
 
-Meet Squirrito 🐿️, the very human-like squirrel that makes the best jokes and hoards your memories, instead of nuts.
+Meet Squirrito 🐿️, your very human-like squirrel best-friend that makes the best jokes and hoards your memories, instead of nuts.
 
 Squirrito is an AI-powered app on Cloudflare that brings humor into your life. It remembers the location of where jokes were generated and plots them on a map you can share.
 
